@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(movieposter.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 10px;
+}
+div {
+  background-color: burlywood;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  box-shadow:  0 4px 8px rgb(219, 131, 14);
+}
+h1 {
+  color: rgb(141, 25, 25);
+  margin-bottom: 20px;
+}
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #6aae6e;
+}
+#result {
+  margin-top: 20px;
+  text-align: left;
+}
+img {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+  div {
+    padding: 15px;
+  }
+  input[type="text"],
+  button {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  button {
+    padding: 8px 16px;
+  }
+}
